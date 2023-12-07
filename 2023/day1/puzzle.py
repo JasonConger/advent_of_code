@@ -11,7 +11,7 @@ def part1():
             digits = re.findall(r'\d', line)
             
             if not digits:
-                raise Exception("Um, thish shouldn't happen. Check your input text.")
+                raise Exception("Um, this shouldn't happen. Check your input text.")
             
             firstDigit = digits[0]
 
